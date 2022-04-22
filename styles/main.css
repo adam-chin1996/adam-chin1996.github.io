@@ -10,6 +10,9 @@ h2 {
   font-size: 30pt;
 }
 nav ul li {
+  background: cyan;
+  color: orange;
   display: inline-block;
   list-style-type: none;
+  padding: 10px 20px;
 }
