@@ -10,6 +10,9 @@ body {
 h1 {
   margin: 5pt;
   padding: 10pt;
+  border: 2rem;
+  border-color: red;
+  border-radius: 5rem;
 }
 h2 {
   padding: 2pt;
@@ -19,8 +22,7 @@ p {
   color: pink;
 }
 nav ul li {
-  background: cyan;
-  color: orange;
+  background: #777;
   display: inline-block;
   list-style-type: none;
   padding: 10px 20px;
