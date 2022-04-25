@@ -9,14 +9,13 @@ body {
   font-size: 50pt
 }
 h1 {
-  margin: 5pt;
-  padding: 10pt;
-  border: 2rem;
-  border-color: red;
-  border-radius: 5rem;
-  background-image: url(../images/mosaic.png);
-  color:white;
+  background-image: url(../images/webb.png);
+  background-size: auto;
+  margin: 0pt;
+  border-radius: 10pt;
+  color: #555;
   font-family: 'Tapestry', cursive;
+  display: inline;
 }
 h2 {
   padding: 2pt;
@@ -31,8 +30,18 @@ p {
   padding: none;
   font-family: 'Source Code Pro', monospace;
 }
+header {
+  background: white;
+}
+div {
+  border: 10px solid;
+  background-color: #999;
+}
+nav ul {
+  margin: 0;
+  display: inline;
+}
 nav ul li {
-  background: #777;
   display: inline-block;
   list-style-type: none;
   padding: none;
@@ -41,6 +50,11 @@ nav ul li {
   border-color: red;
   border: 5px;
 }
-footer {
+a {
+  text-decoration: none;
+  color: orange;
+  font-family: 'Playfair Display', serif;
+}
+footer p a{
   font-size: 10pt;
 }
