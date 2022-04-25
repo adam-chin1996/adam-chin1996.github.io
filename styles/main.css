@@ -31,13 +31,6 @@ p {
   -webkit-text-stroke-width: 1px;
   padding: 5pt, 10pt;
 }
-p a {
-  color: black;
-  font-size: 15pt;
-  font-family: 'Source Code Pro', monospace;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 2px;
-}
 header {
   background-image: url(../images/mosaic.png);
   border-radius:  10pt;
@@ -65,7 +58,7 @@ nav ul li {
 }
 a {
   text-decoration: none;
-  color: blue;
+  color: white;
   font-family: 'Playfair Display', serif;
 }
 footer p a{
