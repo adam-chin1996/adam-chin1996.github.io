@@ -1,9 +1,10 @@
 body {
-  background-image: url(../../webb-dark.png);
+  background-image: url(../images/webb-dark.png);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: repeat;
-  color: white;
+  background-size: auto;
+  background-color: #222;
   font-family: 'Playfair Display', serif;
   font-size: 50pt
 }
@@ -13,21 +14,32 @@ h1 {
   border: 2rem;
   border-color: red;
   border-radius: 5rem;
+  background-image: url(../images/mosaic.png);
+  color:white;
+  font-family: 'Tapestry', cursive;
 }
 h2 {
   padding: 2pt;
   margin: 5pt;
+  color:white;
 }
 p {
   color: pink;
+  font-size: 15pt;
+  border: none;
+  margin: none;
+  padding: none;
+  font-family: 'Source Code Pro', monospace;
 }
 nav ul li {
   background: #777;
   display: inline-block;
   list-style-type: none;
-  padding: 10px 20px;
+  padding: none;
   margin:auto;
   border-radius: 2rem;
+  border-color: red;
+  border: 5px;
 }
 footer {
   font-size: 10pt;
