@@ -48,6 +48,9 @@ div {
   border-radius: 10pt;
   text-align: center;
 }
+ul {
+  list-style-type: none;
+}
 nav ul {
   margin: 10%;
   padding: 5%;
