@@ -25,30 +25,36 @@ h2 {
 p {
   color: pink;
   font-size: 15pt;
-  border: none;
-  margin: none;
-  padding: none;
   font-family: 'Source Code Pro', monospace;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+}
+p a {
+  color: pink;
+  font-size: 15pt;
+  font-family: 'Source Code Pro', monospace;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
 }
 header {
-  background: white;
+  background-image: url(../images/webb.png);
+  border-radius:  10pt;
 }
 div {
-  border: 10px solid;
+  border: 6px inset cyan;
   background-color: #999;
+  border-radius: 10pt;
+  text-align: center;
 }
 nav ul {
-  margin: 0;
+  margin: 10%;
+  padding: 5%;
   display: inline;
 }
 nav ul li {
   display: inline-block;
   list-style-type: none;
-  padding: none;
-  margin:auto;
-  border-radius: 2rem;
-  border-color: red;
-  border: 5px;
+  text-align: right;
 }
 a {
   text-decoration: none;
