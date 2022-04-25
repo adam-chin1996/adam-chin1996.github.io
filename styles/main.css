@@ -32,11 +32,11 @@ p {
   padding: 5pt, 10pt;
 }
 p a {
-  color: pink;
+  color: #ffa6ed;
   font-size: 15pt;
   font-family: 'Source Code Pro', monospace;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
 }
 header {
   background-image: url(../images/webb.png);
