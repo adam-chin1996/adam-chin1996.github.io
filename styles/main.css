@@ -20,7 +20,9 @@ h1 {
 h2 {
   padding: 2pt;
   margin: 5pt;
-  color:white;
+  color: #eda022;
+  text-align: center;
+  font-size: 50pt;
 }
 p {
   color: pink;
@@ -28,6 +30,7 @@ p {
   font-family: 'Source Code Pro', monospace;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
+  padding: 5pt, 10pt;
 }
 p a {
   color: pink;
@@ -54,7 +57,9 @@ nav ul {
 nav ul li {
   display: inline-block;
   list-style-type: none;
-  text-align: right;
+  padding: 15px;
+  border: 20px;
+  font-size: 35pt;
 }
 a {
   text-decoration: none;
@@ -63,4 +68,6 @@ a {
 }
 footer p a{
   font-size: 10pt;
+  color: orange;
+  float: right;
 }
