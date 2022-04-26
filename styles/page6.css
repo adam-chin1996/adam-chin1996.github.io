@@ -1,3 +1,36 @@
 body {
-  background-color: bisque;
+  background-image: url(https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg);
+  background-position: fixed;
+  background-repeat: repeat;
+  background-size: cover;
+  margin: 50px;
+}
+header {
+  padding: 5px;
+  font-size: 20px;
+}
+p {
+  font-size: 25px;
+  font-weight: 500;
+}
+.relative {
+  background: teal;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  left: 350px;
+}
+.absolute {
+  background: yellowgreen;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 10px;
+}
+li {
+  font-size: 25px;
+}
+.code {
+  position: relative;
+  left: 350px;
 }

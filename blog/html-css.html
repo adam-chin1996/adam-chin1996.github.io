@@ -26,7 +26,7 @@
             <div class="relative">
               <p>The box here is relative positioned on the page decided by numerical values.</p>
             <div class="absolute">
-              <p>The box which contains this text is "absolute positioned" within the parent box.</p></div>
+              <p>The box which contains this text is "absolute positioned" within the parent box also decided by numerical values.</p></div>
               </div>
           <p>As we can see here, the background is stationary and doesn't move even when you scroll the page. This is because the background image has been assigned a fixed position.</p>
           <p>It's fixed position is to remain in the background, covering the entirety of the page where it won't overlap any other elements that are placed over the top.</p>
@@ -34,6 +34,11 @@
           <p>I would need to input numerical values to the "top, left, bottom and right" styling within css in order to move the element relative to its position.</p>
           <p>While the absolute box remains in the relative box, regardless of where I position the relative-box relative to the page, the box inside relative-box will remain at it's fixed location.</p>
           <p>This is what is meant by absolute value vs relative value. Relative positioning is more free-flowing, while absolute is more targetted.</p>
+          <img class="code" src="../images/code-demonstration.JPG">
+          <p>As the above image illustrates, as correlating to box position, the relative positioned box has a left numerical value of 350px(pixels),</p>
+          <p>which means the box has been positioned 350pixels relative to the left of the page.</p>
+          <p>Whilst the absolute box, despite only having a left numerical value of 10pixels, it does not position itself relative to the left of the page because it is absolutely contained within the relative box.</p>
+          <p>As such, the absolute box only moved 10 pixels left from the parent box.</p>
       </body>
   </head>
 </html>
