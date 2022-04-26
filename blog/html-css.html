@@ -19,18 +19,18 @@
           <p> apply to elements that want to be fixed, but still functions with the flow of the page.</p>
           <p>In short, the difference between the 3 positions is as follows:</p>
             <ol>
-              <li>Fixed: Object remains fixed regardless of page position.</li>
+              <li>Fixed: Object remains fixed regardless of page position and other elements.</li>
               <li>Absolute: Object is fixed at a position relative to page and ignores other elements.</li>
               <li>Relative: Object is fixed within it's own specified field and doesn't interfere with everything else.</li>
             </ol>
-            <div class="absolute">
-              <p>The box which contains this text is absolute.</p>
-            </div>
             <div class="relative">
-              <p>The box here is relative to the page.</p>
-            </div>
+              <p>The box here is relative positioned.</p>
+            <div class="absolute">
+              <p>The box which contains this text is absolute positioned.</p></div>
+              </div>
           <p>As we can see here, the background is stationary and doesn't move even when you scroll the page. This is because the background image has been assigned a fixed position.</p>
           <p>It's fixed position is to remain in the background, covering the entirety of the page where it won't overlay any other elements that are placed over the top.</p>
+          <p>However, the relative positioned box is stationed relative to the page.</p>
       </body>
   </head>
 </html>
