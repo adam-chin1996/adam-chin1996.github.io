@@ -3,26 +3,34 @@
   <head>
     <title>Sprint Two</title>
     <meta charset="UTF-8">
-    <link href="/styles/page6.css" rel="stylesheet" type="text/css">
+    <link href="../styles/page6.css" rel="stylesheet" type="text/css">
       <body>
         <header>
         <h1>What is the difference between Fixed, Absolute and Relative positioning?</h1>
         </header>
-          <p>Fixed positioning is a state where an image or object remains at a fixed position regardless of page scroll or mouse movement. 
-          If an image is set to fixed as a background image, it would mean that any overlaying properties such as text, links, media or images,
-          that aren't also at a fixed position would slide over the top of the background. If an image is set to fixed at a certain location within the page,
-          the image will not move from it's location and will always load there.</p>
-          <p>Absolute positioning means that whatever contains the property of absolute will be ignored by other elements and will overlap them if they conflict with each other. 
-          This can lead to the absolute element covering over other elements if placed improperly. Absolute positioning ignores the flow of the page and does it's own thing.</p>
-          <p>Relative positioning is as it's name states, the element that contains the relative property will be added relative to whatever contains the element.
-          If a relative positioned element has no containment field, it will default to being contained within the body of the page. Relative position is the most useful tag
-          to apply to elements that want to be fixed, but still functions with the flow of the page.</p>
+          <p>Fixed positioning is a state where an image or object remains at a fixed position regardless of page scroll or mouse movement.</p>
+          <p>If an image is set to fixed as a background image, it would mean that any overlaying properties such as text, links, media or images,</p>
+          <p>that aren't also at a fixed position would slide over the top of the background. If an image is set to fixed at a certain location within the page,</p>
+          <p>image will not move from it's location and will always load there.</p>
+          <p>Absolute positioning means that whatever contains the property of absolute will be ignored by other elements and will overlap them if they conflict with each other.</p> 
+          <p>This can lead to the absolute element covering over other elements if placed improperly. Absolute positioning ignores the flow of the page and does it's own thing.</p>
+          <p>Relative positioning is as it's name states, the element that contains the relative property will be added relative to whatever contains the element.</p>
+          <p>If a relative positioned element has no containment field, it will default to being contained within the body of the page. Relative position is the most useful tag</p>
+          <p> apply to elements that want to be fixed, but still functions with the flow of the page.</p>
           <p>In short, the difference between the 3 positions is as follows:</p>
             <ol>
               <li>Fixed: Object remains fixed regardless of page position.</li>
-              <li>Absolute: Object is fixed at a position and ignores other elements.</li>
+              <li>Absolute: Object is fixed at a position relative to page and ignores other elements.</li>
               <li>Relative: Object is fixed within it's own specified field and doesn't interfere with everything else.</li>
             </ol>
+            <div class="absolute">
+              <p>The box which contains this text is absolute.</p>
+            </div>
+            <div class="relative">
+              <p>The box here is stationed within, relative to the fixed box.</p>
+            </div>
+          <p>As we can see here, the background is stationary and doesn't move even when you scroll the page. This is because the background image has been assigned a fixed position.</p>
+          <p>It's fixed position is to remain in the background, covering the entirety of the page where it won't overlay any other elements that are placed over the top.</p>
       </body>
   </head>
 </html>
