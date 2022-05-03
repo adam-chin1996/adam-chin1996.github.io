@@ -51,6 +51,12 @@ div .text {
   border-radius: 10pt;
   text-align: center;
 }
+div .links {
+  border: 5px inset cyan;
+  background-color: #999;
+  border-radius: 10pt;
+  text-align: center;
+}
 ul {
   list-style-type: none;
 }
