@@ -7,6 +7,10 @@ body {
   font-family: 'Playfair Display', serif;
   font-size: 50pt
 }
+.main-content {
+  width: 75%;
+  margin: 0% 5% 0% 12.5%;
+}
 h1 {
   margin: 0pt;
   border-radius: 10pt;
@@ -41,7 +45,7 @@ header {
   background-repeat: repeat;
   border-radius:  10pt;
 }
-div {
+div .text {
   border: 5px inset cyan;
   background-color: #999;
   border-radius: 10pt;
