@@ -92,20 +92,20 @@ li {
 @media screen and (max-width: 1200px) {
   body {
     background-color: aqua;
-    color: white;
+    color:  #222;
   }
 }
 
 @media screen and (max-width: 768px) {
   body {
     background-color: yellowgreen;
-    color: white;
+    color:  #222;
   }
 }
 
 @media screen and (max-width: 320px) {
   body {
     background-color: burlywood;
-    color: white;
+    color:  #222;
   }
 }
