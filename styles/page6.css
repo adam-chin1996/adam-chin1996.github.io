@@ -1,9 +1,11 @@
 body {
-  background-image: url(https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg);
+  /* background-image: url(https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg);
   background-position: fixed;
   background-repeat: repeat;
   background-size: cover;
-  margin: 50px;
+  margin: 50px; */
+  background-color: purple;
+  color: #222;
 }
 header {
   padding: 5px;
