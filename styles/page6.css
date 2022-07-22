@@ -5,7 +5,7 @@ body {
   background-size: cover;
   margin: 50px; */
   background-color: purple;
-  color: #222;
+  color: white;
 }
 header {
   padding: 5px;
@@ -40,7 +40,7 @@ li {
 @media screen and (max-width: 1200px) {
   body {
     background-color: aqua;
-    color: white;
+    color: #222;
   }
 }
 
